@@ -1,0 +1,19 @@
+.square {
+    background: $off-white;
+    //position: relative;
+    max-width: 300px;
+    //border: 2px solid red;
+    border-radius: 25%;
+    display: flex;
+    align-items: center;
+}
+  
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.content{
+    padding: $m-size;
+}
