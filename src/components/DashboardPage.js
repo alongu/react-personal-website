@@ -11,6 +11,7 @@ const DashboardPage = () => (
   <div>
     <Header />
     <Presentor />
+    <h2 className="fancy"><span > Here's what I've done so far </span></h2>
     <DoneSoFarItem item={SolaredgeItem}/>
     <DoneSoFarItem item={EssenceItem}/>
     <DoneSoFarItem item={BenGurionItem}/>
