@@ -4,7 +4,7 @@ const SolaredgeItem = {
     hrefLink: "https://www.solaredge.com/home", 
     title: "Full-Stack Software Developer, Since April 2016", 
     location: "Hertzelia, Israel", 
-    description: "bla bla bla bla bla"
+    description: ""
 }
 
 export default SolaredgeItem;

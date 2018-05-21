@@ -1,0 +1,25 @@
+.post-preview {
+    margin: 4rem;
+}
+
+.post-preview__title {
+    font-size: 2.8rem;
+    line-height: 1.3;
+
+    h1 {
+        font-weight: bold;
+        margin-top: 0;
+    }
+}
+
+.post-preview__subtitle {
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.post-preview__summary {
+    color: #666;
+    font-size: 1.8rem;
+    margin: 1.6rem 0 2.6rem;
+}
