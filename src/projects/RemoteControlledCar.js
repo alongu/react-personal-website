@@ -20,7 +20,7 @@ const RemoteControlledCar = {
                 The idea was to create it from scratch, hardware and software wise.
                 The car would have to be controlled by the phone gyro, and use a camera to pass a live
                 video stream to the phone. 
-                Watch the demo here: 
+                Watch the demo here: https://youtu.be/TEz1VJGgaME
             </p>
             <h3>Architecture and Protocol</h3>
             <p>
