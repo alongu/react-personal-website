@@ -8,7 +8,12 @@ import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
 import Presentor from '../components/Presentor';
 import BlogPage from '../components/BlogPage';
+import ProjectPage from '../components/ProjectPage';
+import RemoteControlledCar from '../projects/RemoteControlledCar';
 import WebRoute from '../routers/WebRoute';
+import BlogItem from '../components/BlogItem';
+import CI from '../articles/ContinousIntegration';
+import OtherArticle from '../articles/OtherArticle';
 
 export const history = createHistory();
 
@@ -18,6 +23,10 @@ const AppRouter = () => (
       <Switch>
         <WebRoute path="/" component={DashboardPage} exact={true} />
         <WebRoute path="/blog" component={BlogPage} exact={true} />
+        <WebRoute path="/blog/CI" component={() => <BlogItem {...CI} />} exact={true} />
+        <WebRoute path="/blog/otherArticle" component={() => <BlogItem {...OtherArticle} />} exact={true} />
+        <WebRoute path="/projects" component={ProjectPage} exact={true} />
+        <WebRoute path="/projects/remoteControlledCar" component={() => <BlogItem {...RemoteControlledCar} />} exact={true} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>
