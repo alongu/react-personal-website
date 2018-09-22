@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDisqusComments from 'react-disqus-comments';
+import ReactDisqusThread from 'react-disqus-thread';
 
 export class BlogItem extends React.Component {
     handleNewComment(comment) {
@@ -15,13 +15,13 @@ export class BlogItem extends React.Component {
                 <h2 className="post-preview__subtitle">{subtitle}</h2>
                 <p className="post-page">{summary}</p>
                 {article}
-                <ReactDisqusComments
+                <ReactDisqusThread
                     shortname="alonguterman"
-                    identifier="alonguterman"
-                    title="title 123"
+                    identifier="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
+                    title="Example Thread 2"
                     url="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
-                    onNewComment={this.handleNewComment}
                     category_id="123456"
+                    onNewComment={this.handleNewComment}
                 />
             </div>
         );
