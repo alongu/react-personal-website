@@ -20,11 +20,11 @@ export class BlogItem extends React.Component {
                 <p className="post-page">{summary}</p>
                 {article}
                 <ReactDisqusComments
-                    shortname="alonguterman"
-                    identifier="alon_guterman"
+                    shortname="alongpersonalwebsite"
+                    identifier="alongpersonalwebsite123"
                     title="Controlling RC car by a phone application and RPi 2 Thread"
-                    //url="http://localhost:8080/projects/remoteControlledCar"
-                    category_id="1122546812"
+                    url="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
+                    category_id="123456"
                     onNewComment={this.handleNewComment} />
                 />
             </div>
