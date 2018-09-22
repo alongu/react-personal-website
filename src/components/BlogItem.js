@@ -2,10 +2,6 @@ import React from 'react';
 import ReactDisqusComments from 'react-disqus-comments';
 
 export class BlogItem extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     handleNewComment(comment) {
         console.log(comment.text);
     }
@@ -21,11 +17,11 @@ export class BlogItem extends React.Component {
                 {article}
                 <ReactDisqusComments
                     shortname="alongpersonalwebsite"
-                    identifier="alongpersonalwebsite123"
-                    title="Controlling RC car by a phone application and RPi 2 Thread"
+                    identifier="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
+                    title="title 1"
                     url="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
                     category_id="123456"
-                    onNewComment={this.handleNewComment} />
+                    onNewComment={this.handleNewComment}
                 />
             </div>
         );
