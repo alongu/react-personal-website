@@ -22,10 +22,8 @@ export class BlogItem extends React.Component {
                 <ReactDisqusComments
                     shortname="alonguterman"
                     identifier="alon_guterman"
-                    //identifier="something-unique-12345"
                     title="Controlling RC car by a phone application and RPi 2 Thread"
                     //url="http://localhost:8080/projects/remoteControlledCar"
-                    //url="http://www.example.com/example-thread"
                     category_id="1122546812"
                     onNewComment={this.handleNewComment} />
                 />
