@@ -16,12 +16,12 @@ export class BlogItem extends React.Component {
                 <p className="post-page">{summary}</p>
                 {article}
                 <ReactDisqusComments
-                    shortname="alongpersonalwebsite"
-                    identifier="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
-                    title="title 1"
+                    shortname="alonguterman"
+                    identifier="alonguterman"
+                    title="title 123"
                     url="https://alonguterman.herokuapp.com/projects/remoteControlledCar"
-                    category_id="123456"
                     onNewComment={this.handleNewComment}
+                    category_id="123456"
                 />
             </div>
         );
