@@ -4,11 +4,15 @@ const Footer = () => (
     <div className="footer">
         <div className="footer__content">
             <div className="footer__icons">
-                <a href="https://github.com/alongu">
-                    <img src="/images/github.svg" />
+                
+                <a href="https://www.linkedin.com/in/alon-guterman-79633884/" target="/">
+                    <img src="/images/Linkedin_Logo2.png" style={{width: "25px", height:"25px"}}/>
+                </a> 
+                <a href="https://www.facebook.com/alon.guterman?ref=bookmarks" style={{padding: "0px", paddingRight: "0.2px"}} target="/">
+                    <img src="/images/Facebook_Logo2.svg" style={{width: "30.4px", height:"30.4px"}}/>
                 </a>
-                <a href="https://www.linkedin.com/in/alon-guterman-79633884/">
-                    <img src="/images/Linkedin_Logo.png" />
+                <a href="https://github.com/alongu" target="/">
+                    <img src="/images/github2.png" style={{height:"25px"}}/>
                 </a>
             </div>
             <h4>Designed and developed by Alon Guterman &copy; 2018</h4>

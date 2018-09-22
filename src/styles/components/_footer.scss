@@ -3,7 +3,7 @@
 }
   
 .footer__content {
-    height: 150px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,7 +19,7 @@
     padding: $s-size;
 
     a {
-        padding: 2px;
+        padding: 3px;
     }
     img {
         height: 25px;

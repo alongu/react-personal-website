@@ -4513,6 +4513,10 @@ react-dates@12.3.0:
     react-moment-proptypes "^1.4.0"
     react-portal "^3.1.0"
 
+react-disqus-comments@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-disqus-comments/-/react-disqus-comments-1.2.0.tgz#e5aae2ea6cdce998cfc1340aab11df1be68f71f5"
+
 react-dom-factories@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.0.tgz#f43c05e5051b304f33251618d5bc859b29e46b6d"
