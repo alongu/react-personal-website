@@ -1,31 +1,44 @@
 .done-so-far-item-content {
-    height: 150px;
+    display: block;
+    //align-self: flex-start;
+    float: none;
+    //height: 150px;
     //display: flex;
     //flex-direction: column;
     //justify-content: space-around;
     //align-items: flex-start;
     padding: $s-size $l-size;
     //margin: 0;
-    line-height: 0.7;
+    line-height: 0.6;
+    text-align: left;
 }
 
-.done-so-far-item-content__link {
+.done-so-far-item-content--link {
     color: rgb(51, 119, 204);
     text-decoration: none;
+    font-size: $l-size
 }
 
-.done-so-far-item-content__title {
+.done-so-far-item-content--title {
     color: rgb(94, 149, 22);
     font-weight: bold;
+    line-height: 1.5;
 }
 
-.done-so-far-item-content__location {
+.done-so-far-item-content--location {
     color: black;
     font-weight: bold;
 }
 
-.done-so-far-item-content__empty-line {
+.done-so-far-item-content--empty-line {
     line-height: 0;
+}
+
+.done-so-far-item-content--description {
+    //font-family: "Times New Roman", Times, serif;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    //padding: 5px;
 }
 
 

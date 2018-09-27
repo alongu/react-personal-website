@@ -4,9 +4,13 @@ import Highlight from 'react-highlight.js';
 const RemoteControlledCar = {
     title: 'Remote Controlled Car',
     subtitle: 'Controlling RC car by a phone application and RPi 2',
-    summary: `This project will take you step by step with creating from scratch a working RC car, controlled by
-              your phone's gyro movements. Live video stream constantly broadcast from the car's web camera into 
-              your phone's application.`,
+    summary: <div className="done-so-far-item-content--description">
+        <p>
+            This project will take you step by step with creating from scratch a working RC car, controlled by
+            your phone's gyro movements. Live video stream constantly broadcast from the car's web camera into
+            your phone's application.
+        </p>
+    </div>,
     readLink: "/projects/remoteControlledCar",
     githubLink: "https://github.com/alongu/RemoteControlledCar",
     demoLink: "https://www.youtube.com/watch?v=TEz1VJGgaME",
@@ -25,7 +29,7 @@ const RemoteControlledCar = {
             </p>
             <p>Watch the demo here:</p>
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TEz1VJGgaME"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TEz1VJGgaME?rel=0"></iframe>
             </div>
             <h3>Architecture and Protocol</h3>
             <p>
@@ -437,6 +441,10 @@ direction += finalSpeed;
 messageSent = direction;
 tcpClient.SendMessage(direction);`}
             </Highlight>
+            <p>
+                If you enjoyed this tutorial or if it was helpful, please leave me a comment below. You are more than welcome
+                and fork this project on github, and let me know how it go :)
+            </p>
         </div>
 };
 

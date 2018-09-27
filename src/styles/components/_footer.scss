@@ -1,5 +1,6 @@
 .footer {
     background: white;
+    flex-shrink: 0;
 }
   
 .footer__content {
@@ -8,15 +9,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: $s-size;
-
-    
+    padding: $m-size;
 }
 
 .footer__icons {
     display: flex;
     justify-content: center;
     padding: $s-size;
+    margin-bottom: 10px;
 
     a {
         padding: 3px;

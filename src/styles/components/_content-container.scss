@@ -1,8 +1,46 @@
 .content-container {
   margin: 0 auto;
   padding: 0 $m-size;
-  max-width: 70%;
-  // display: flex;
-  // justify-content: center;
+  //position: relative;
+
+  // Here are the styles that will be applied for larger screens
+  @media (min-width: $desktop-breakpoint4) {
+    flex-direction: row;
+    //max-width: 90%;
+  }
+
+  // @media (min-width: $desktop-breakpoint3) {
+  //   flex-direction: row;
+  //   max-width: 80%;
+  // }
+
+  // @media (min-width: $desktop-breakpoint2) {
+  //   flex-direction: row;
+  //   max-width: 70%;
+  // }
+
+  // @media (min-width: $desktop-breakpoint) {
+  //   flex-direction: row;
+  //   max-width: 60%;
+  // }
+
+
+
+
+
+
+}
+
+.page__content {
+    min-height: calc(100vh - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.main {
+  flex-grow: 1;
+  flex-shrink: 0;
+
 }
 

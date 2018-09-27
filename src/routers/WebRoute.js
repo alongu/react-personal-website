@@ -8,9 +8,11 @@ const WebRoute = ({
   ...rest
 }) => (
     <Route {...rest} component={(props) => (
-        <div>
+        <div className="page__content">
             <Header />
-            <Component {...props} />
+            <div className="main">
+              <Component {...props} />
+            </div>
             <Footer />
       </div>
     )} />

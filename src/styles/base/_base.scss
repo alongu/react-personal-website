@@ -3,7 +3,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; // Default pixel size is 12.8px = 1 rem. in this site.
 }
 
 body {
@@ -11,6 +11,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
   line-height: 1.6;
+  // font grows 1px for every 100px of viewport width
+  //font-size: calc($m-size + 1vw);
+  // leading grows along with font,
+  // with an additional 0.1em + 0.5px per 100px of the viewport
+  //line-height: calc(1.6 + 0.5vw);
 }
 
 button {

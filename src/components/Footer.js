@@ -4,7 +4,6 @@ const Footer = () => (
     <div className="footer">
         <div className="footer__content">
             <div className="footer__icons">
-                
                 <a href="https://www.linkedin.com/in/alon-guterman-79633884/" target="/">
                     <img src="/images/Linkedin_Logo2.png" style={{width: "25px", height:"25px"}}/>
                 </a> 

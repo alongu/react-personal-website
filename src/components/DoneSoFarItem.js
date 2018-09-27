@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import DoneSoFarItemContent from '../components/DoneSoFarItemContent';
 
 const svgLogoStyle = {
@@ -6,17 +7,29 @@ const svgLogoStyle = {
     height: "100%",
 }
 
-const DoneSoFarItem = ({ item }) => (
-    <div className="content-container">
-    <div className="done-so-far-item">
-        <div className="square">
-            <div className="content"> 
-                <img src={item.imageLink} style={svgLogoStyle} />
+class DoneSoFarItem extends React.Component {
+    render() {
+        return (
+            <div>
+                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                    <div className="content-container">
+                        <div className="done-so-far-item">
+                            <div className="done-so-far-item__imageblock__wrapper">
+                                <div className="done-so-far-item__imageblock">
+                                    <div className="square">
+                                        <div className="content">
+                                            <img src={this.props.item.imageLink} style={svgLogoStyle} />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <DoneSoFarItemContent {...this.props.item} />
+                        </div>
+                    </div>
+                </ScrollAnimation>
             </div>
-        </div>
-        <DoneSoFarItemContent {...item}/>
-    </div>
-    </div>
-);
+        );
+    }
+}
 
 export default DoneSoFarItem;
