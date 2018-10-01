@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SolaredgeItem = {
-    imageLink: "/images/Solaredge_logo.svg",
+    imageLink: "/images/work/solaredge-logo.svg",
     pageName: "Solaredge", 
     hrefLink: "https://www.solaredge.com/home", 
     title: "Full-Stack Software Developer, Since April 2016", 

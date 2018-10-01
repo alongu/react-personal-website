@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BenGurionItem = {
-    imageLink: "/images/BenGurion_Logo.png",
+    imageLink: "/images/work/ben-gurion-logo.png",
     pageName: "Ben Gurion University", 
     hrefLink: "http://in.bgu.ac.il/en/Pages/default.aspx", 
     title: "BSc in Electrical and Computer Engineering, 2010 - 2014", 

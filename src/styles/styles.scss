@@ -2,16 +2,16 @@
 @import './base/base';
 @import './base/responsive-square';
 @import './base/fancy-line';
-@import './components/box-layout';
+//@import './components/box-layout';
 @import './components/button';
 @import './components/header';
 @import './components/content-container';
 @import './components/page-header';
-@import './components/input-group';
-@import './components/inputs';
-@import './components/form';
+//@import './components/input-group';
+//@import './components/inputs';
+//@import './components/form';
 @import './components/visibility';
-@import './components/list';
+//@import './components/list';
 @import './components/loader';
 @import './components/presentor';
 @import './components/footer';
@@ -20,3 +20,4 @@
 @import './components/post-container';
 @import './components/post-preview';
 @import './components/post-page';
+@import './components/project-content';

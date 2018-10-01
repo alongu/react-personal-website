@@ -1,7 +1,7 @@
 import React from 'react';
 
 const EssenceItem = {
-    imageLink: "/images/Essence-logo.png",
+    imageLink: "/images/work/essence-logo.png",
     pageName: "Essence", 
     hrefLink: "http://www.essence-grp.com/", 
     title: "Software Developer, 2014 - 2016", 

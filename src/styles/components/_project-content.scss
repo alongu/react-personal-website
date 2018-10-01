@@ -1,0 +1,12 @@
+.project__container {
+    text-align: left;
+    padding: $m-size;
+    margin: 10;
+    align-items: center;
+    margin-bottom: $m-size;
+   
+    // Here are the styles that will be applied for larger screens
+    @media (min-width: $desktop-breakpoint) {
+        margin: $s-size calc(30vw - 200px);
+    }
+}

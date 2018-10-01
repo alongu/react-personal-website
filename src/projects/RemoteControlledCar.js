@@ -6,11 +6,13 @@ const RemoteControlledCar = {
     subtitle: 'Controlling RC car by a phone application and RPi 2',
     summary: <div className="done-so-far-item-content--description">
         <p>
-            This project will take you step by step with creating from scratch a working RC car, controlled by
-            your phone's gyro movements. Live video stream constantly broadcast from the car's web camera into
-            your phone's application.
+            In this project I created a working RC car from scratch - hardware and software wise.
+            Car's movements are controlled by a phone's gyro movements, sent over TCP to the RPi 2 located over the car.
+            Live video stream constantly broadcast from the car's RPi 2 web camera into the phone's application.
+            Server side was written in C, and client side in java. 
         </p>
     </div>,
+    imageLink: "/images/projects/rc-car-profile.png",
     readLink: "/projects/remoteControlledCar",
     githubLink: "https://github.com/alongu/RemoteControlledCar",
     demoLink: "https://www.youtube.com/watch?v=TEz1VJGgaME",
@@ -43,7 +45,7 @@ const RemoteControlledCar = {
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img
-                    src="/images/Architecture.png"
+                    src="/images/projects/architecture.png"
                     style={{ width: "90%", height: "90%" }}>
                 </img>
             </div>
@@ -71,7 +73,7 @@ const RemoteControlledCar = {
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img
-                    src="/images/half-bridge.png"
+                    src="/images/projects/half-bridge.png"
                     style={{ width: "70%", height: "70%" }}>
                 </img>
             </div>
@@ -89,7 +91,7 @@ const RemoteControlledCar = {
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img
-                    src="/images/pwm.png"
+                    src="/images/projects/pwm.png"
                     style={{ width: "70%", height: "70%" }}>
                 </img>
             </div>
@@ -183,7 +185,7 @@ network = {
             </p>
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <img
-                    src="/images/bcm-io.png"
+                    src="/images/projects/bcm-io.png"
                     style={{ width: "70%", height: "70%" }}>
                 </img>
             </div>

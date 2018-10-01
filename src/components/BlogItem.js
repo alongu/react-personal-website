@@ -10,7 +10,7 @@ export class BlogItem extends React.Component {
         const { title, subtitle, summary, article } = this.props;
 
         return (
-            <div className="content-container">
+            <div className="project__container">
                 <h1 className="post-preview__title">{title}</h1>
                 <h2 className="post-preview__subtitle">{subtitle}</h2>
                 <p className="post-page">{summary}</p>

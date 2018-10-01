@@ -1,7 +1,7 @@
 import React from 'react';
 
 const BurningSolarItem = {
-    imageLink: "/images/burning-solar2.png",
+    imageLink: "/images/work/burning-solar.png",
     pageName: "Burning Solar",
     hrefLink: "https://finder.startupnationcentral.org/company_page/burning-solar",
     title: "Software Intern, 2012",

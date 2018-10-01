@@ -7,6 +7,7 @@ import BenGurionItem from '../DoneSoFarItems/BenGurion';
 import BurningSolarItem from '../DoneSoFarItems/BurningSolar';
 import ProjectPreview from './ProjectPreview';
 import RemoteControlledCar from '../projects/RemoteControlledCar';
+import GalleryView from './GalleryView';
 
 const DashboardPage = () => (
   <div>
@@ -18,8 +19,8 @@ const DashboardPage = () => (
     <DoneSoFarItem item={BenGurionItem}/>
     <h1 className="fancy"><span > Programming at Home </span></h1>
     <ProjectPreview item={RemoteControlledCar}/>
-    <h1 className="fancy"><span > Hiking is in my soul </span></h1>
-    <ProjectPreview item={RemoteControlledCar}/>
+    <h1 className="fancy"><span > I Love the Outdoors </span></h1>
+    <GalleryView />
     <h2 className="fancy">Let's get in touch.</h2>
     <h3 className="fancy">LinkedIn or Facebook messages work best.</h3>
   </div>
