@@ -1,11 +1,12 @@
 .content-container {
   margin: 0 auto;
-  padding: 0 $m-size;
+  padding: 0 auto;
   //position: relative;
 
   // Here are the styles that will be applied for larger screens
   @media (min-width: $desktop-breakpoint4) {
     flex-direction: row;
+    padding: 0 $m-size;
     //max-width: 90%;
   }
 

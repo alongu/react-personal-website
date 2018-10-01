@@ -16,7 +16,8 @@
 .done-so-far-item-content--link {
     color: rgb(51, 119, 204);
     text-decoration: none;
-    font-size: $l-size
+    font-size: $l-size;
+    line-height: 1.5;
 }
 
 .done-so-far-item-content--title {
@@ -28,6 +29,7 @@
 .done-so-far-item-content--location {
     color: black;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 .done-so-far-item-content--empty-line {
