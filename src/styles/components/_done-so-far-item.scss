@@ -1,18 +1,18 @@
 .done-so-far-item {
     display: flex;
     text-align: left;
-    padding: $m-size;
-    margin: $s-size calc(30vw - 250px);
+    padding: $xs-size;
     flex-direction: column;
     align-items: center;
     margin-bottom: $m-size;
+    margin: 0;
    
     // Here are the styles that will be applied for larger screens
     @media (min-width: $desktop-breakpoint) {
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-        margin: 10;
+        margin: $s-size calc(30vw - 250px);
     }
 }
 
